@@ -32,3 +32,17 @@
     font-size: medium;
     padding: 12px;
 }
+.footer{
+    display: flex;
+    background-color: rgb(218, 216, 216);
+    align-items: center;
+    justify-content: flex-end;
+    padding-top:15px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
