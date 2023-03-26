@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding-top: 5px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+  }
+  ul li {
+    position: relative;
+    margin: 0 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
+    font-size: 17px;
+  }
+  ul li a{
+  text-decoration: none; 
+  cursor: pointer;
+  color: black;
+  }
+  ul li a:hover {
+     background-color:lightgray;
+  }
+.original  {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: left;
+}
+.first-heading {
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+}
+#email {
+    width: 30%;
+}
+#submit {
+    background-color: yellow;
+    padding:5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    
+}
+.premium {
+    margin-left: 20%;
+}
+.shipping {
+    margin-left: 20%;
+}
+.quality {
+    margin-left: 20%;
+}
+.video {
+    align-items: center;
+}
